@@ -1,0 +1,30 @@
+---
+title: Pieces, Parts & basic Prompts
+
+---
+
+
+ 
+The state of art i n LLM codegen prompting, especially since February (2025), seems to evolve daily. These most basic things have had  lingering utility. 
+
+- Choose your weapons: mine have included Github Copilot with various models (mostly Claude 3.5+) for code. Later, Geminis 2.5 (flash + pro) for PM artifacts + code. 
+
+* Use your preferred minimum viable process style. Here for example just a Product Requirements Document (PRD) and a Software Bill of Materials (SBOM)
+
+   --> &nbsp; from an informal "napkin-scribble" app description text or image, compose or generate (via PM agent role) a PRD in your preferred format e.g., markdown. 
+   
+   --> &nbsp; compose or generate (via PM / Security agent role) a SBOM for desired platform and stack. This example is a simple markdown file, but you might prefer a more formal format like [CycloneDX](https://cyclonedx.org) or [SPDX](https://en.wikipedia.org/wiki/Software_Package_Data_Exchange).
+
+-  Any House and Domain Lore files
+
+- Omission reports : Simple listings of any aspects of prompt, SBoM, PRD, lore etc - that were NOT fulfilled during a generative operation. You're very likely already using these as they can be invaluable for tuning prompts as well as refining design points. Useful in both one-shot and agentic modes.  
+
+- _PRD + SBoM is the_ ***base context***.
+
+- Your preferred prompt. Could be trivial: "build the described app", but probably it would include more detail, role info etc.
+
+- Finally: 
+   --> prompt and a context (**base context** + any House & Domain Lore) -> one-shot output of shaped & targeted, generated codebase
+
+
+>  out of scope here: agents using up all the money. 
